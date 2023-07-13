@@ -17,29 +17,30 @@ To do our downstream task , we must first fine tune the model. here the output i
 # print(x)
 
 
-#using distillbert for masked language modeling
-unmasker= pipeline('fill-mask', model= 'distilbert-base-uncased')
-x= unmasker("Hello i am doing [MASK] in the morning.")
-print(x) 
+# #using distillbert for masked language modeling
+# unmasker= pipeline('fill-mask', model= 'distilbert-base-uncased')
+# x= unmasker("Hello i am doing [MASK] in the morning.")
+# print(x) 
 
 
-# Named entity Recognition
-# Named entity recognition (NER) is a task where the model has to find which parts of the input text correspond to
-# entities such as persons, locations, or organizations
-ner= pipeline("ner", aggregation_strategy= 'simple')
-yy= ner("Susan is studying at tribhuwan university near tirpureshwor")
-print(yy)
+# # Named entity Recognition
+# # Named entity recognition (NER) is a task where the model has to find which parts of the input text correspond to
+# # entities such as persons, locations, or organizations
+# ner= pipeline("ner", aggregation_strategy= 'simple')
+# yy= ner("Susan is studying at tribhuwan university near tirpureshwor")
+# print(yy)
 
 
-question_answerer = pipeline("question-answering")
-answer= question_answerer(
-    question="Where do I work?",
-    context="My name is Sylvain and I work at Hugging Face in Brooklyn",
-)
+# question_answerer = pipeline("question-answering")
+# answer= question_answerer(
+#     question="Where do I work?",
+#     context="My name is Sylvain and I work at Hugging Face in Brooklyn",
+# )
 
-print(answer)
+# print(answer)
 
-summarizer = pipeline("summarization")
+hf_name= "slauw87/bart_summarisation"
+summarizer = pipeline("summarization", hf_name, device=0, max_length= 142)
 summary= summarizer(
     """
     America has changed dramatically during recent years. Not only has the number of 
