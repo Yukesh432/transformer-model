@@ -1,8 +1,10 @@
-# original sentence.....>> input Ids..........>>Embedding of 512
+# References: https://pytorch.org/tutorials/beginner/transformer_tutorial.html
+# https://www.youtube.com/watch?v=ISNdQcPhsts&t=227s
 import torch
 import torch.nn as nn
 import math
 
+# original sentence.....>> input Ids..........>>Embedding of 512
 class InputEmbeddings(nn.Module):
     def __init__(self, d_model: int, vocab_size: int):
         super().__init__()
