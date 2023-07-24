@@ -6,12 +6,23 @@ import math
 
 # original sentence.....>> input Ids..........>>Embedding of 512
 class InputEmbeddings(nn.Module):
+
     def __init__(self, d_model: int, vocab_size: int):
+
+        """
+        Initializing the InputEmbedding module.
+
+        Args:
+        d_model(int): The dimensionality of the embedding vector.
+        vocab_size(int): The size of the vocabularry, i.e. the no. of unique tokens in the input.
+
+        """
+
         super().__init__()
         self.d_model= d_model
         self.vocab_size= vocab_size
 
-        #mapping betwn numbers to vector 
+        # create an embedding layer to map input token IDs to dense vectors of size d_model
         self.embedding= nn.Embedding(vocab_size, d_model)
 
     def forward(self, x):
