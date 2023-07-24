@@ -18,7 +18,7 @@ class InputEmbeddings(nn.Module):
 
         """
 
-        super().__init__()
+        super().__init__()  # this calls the constructor of the base class( i.e. nn.Module)
         self.d_model= d_model
         self.vocab_size= vocab_size
 
@@ -39,20 +39,34 @@ class PositionalEncoding(nn.Module):
         self.seq_len= seq_len
         self.dropout= nn.Dropout(dropout)
 
-        #create a matrix of shape(seq_len, d_model)
+        # create a matrix of shape(seq_len, d_model)
         pe= torch.zeros(seq_len, d_model)
         # first we create a vector called "position" that will represent the position inside the sentence
-        #create a vector of shape(seq_len)
+        # create a vector of shape(seq_len)
         position= torch.arange(0, seq_len, dtype=torch.float).unsqueeze(1)
+        # compute the div_term for positional encoding 
         div_term= torch.exp(torch.arange(0, d_model,2).float()* (-math.log(10000.0)/d_model))
         # apply the sin to even position
         pe[:, 0::2]= torch.sin(position*div_term)
         # apply the cosine to odd position
         pe[:, 1::2]= torch.cos(position*div_term)
 
-        pe= pe.unsqueeze(0)  #(1, seq_len, d_model)
+        pe= pe.unsqueeze(0)  # Expand the matrixx to shape (1, seq_len, d_model)
+        # register the positional encodings(pe) tensor as a buffer in the module's state
         self.register_buffer('pe', pe)
 
     def forward(self, x):
+        """
+        Perform the forward pass of the PositionalEncoding module.
+
+        Args:
+        x(torch.Tensor): Input tensor of shape (batch_size, seq_len, d_model)
+
+        Returns:
+        torch.Tensor: Output tensor of shape (batch_size, seq_len, d_model)
+        """
+        #add the positiional encoding to the input tensor along the sequence length dimension
         x= x +(self.pe[:, :x.shape[1], :]).requires_grad(False)
+
+        # apply the drropout for regularization
         return self.dropout(x)
