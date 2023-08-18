@@ -26,3 +26,6 @@ b. Multiheaded- Attention
 c. Layer Normalization
 
 d. Feed Forward Connection   
+
+*Usecases:* Sentence Classification, Sentiment Analysis, Question Answering, etc. 
+*Example:* BERT, DISTILBERT, ELECTRA etc. 
