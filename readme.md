@@ -30,3 +30,5 @@ d. Feed Forward Connection
 *Usecases:* Sentence Classification, Sentiment Analysis, Question Answering, etc. 
 
 *Example:* BERT, DISTILBERT, ELECTRA etc. 
+
+**Decoder Architecture:** The function of decoder architecture is to generate the output(eg. text-generation). 
