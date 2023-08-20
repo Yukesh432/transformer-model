@@ -31,4 +31,11 @@ d. Feed Forward Connection
 
 *Example:* BERT, DISTILBERT, ELECTRA etc. 
 
-**Decoder Architecture:** The function of decoder architecture is to generate the output(eg. text-generation). 
+**Decoder Architecture:** The function of decoder architecture is to generate the output text(eg. text-generation). The pretraining objective for these models are mainly autoregressive language modeling and masked language modeling.
+
+*Example:* Chatgpt, gpt-2, gpt-3 , PaLM, etc. 
+
+
+## Reference papers:
+
+- [What Language Model Architecture and Pretraining Objective Work Best for Zero-Shot Generalization?](https://arxiv.org/pdf/2204.05832.pdf)
