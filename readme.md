@@ -45,6 +45,10 @@ Eg. 3-digit addition and subtraction on GPT3-13B model.
 
 **b. Instruction Following:** LLM's gained the ability to follow instruction better to perform specific task. Task that are given to LLMs with specific instruction tends to perform better than without the proper instructions.
 
+**c. Step By Step Reasoning:** This prompting method is usefoul for task that requires multi-step reasoning. Model performance imporves as we go with step by step reasoning process. Rather than interacting with straight Question and Answer approach, if we break down the task into sub task, the model tends to perform better.
+Eg. Chain-of-Thought(CoT) prompting improved the arithmetic reasoning benchmarks
+
+
 ## Reference papers:
 
 - [What Language Model Architecture and Pretraining Objective Work Best for Zero-Shot Generalization?](https://arxiv.org/pdf/2204.05832.pdf)
