@@ -35,6 +35,15 @@ d. Feed Forward Connection
 
 *Example:* Chatgpt, gpt-2, gpt-3 , PaLM, etc. 
 
+### Emergent Cababilities in LLMS:
+Models abilities that are not present in small scale LM, but on scaling, emerges. first was seen on gpt2-xl model. 
+Eg. 3-digit addition and subtraction on GPT3-13B model.
+
+#### Major Emergent Capabilities includes:
+
+**a. In-context Learning:** LLM's ability to learn task without required to finetune on that specific task. Earlier models before gpt3 (eg. gpt1, gpt2) required finetuning on downstream task such as summarization, question-answering, NER etc. But here we provide the sample task with few-shot demonstration along with the prompt.
+
+**b. Instruction Following:** LLM's gained the ability to follow instruction better to perform specific task. Task that are given to LLMs with specific instruction tends to perform better than without the proper instructions.
 
 ## Reference papers:
 
