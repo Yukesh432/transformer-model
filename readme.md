@@ -36,6 +36,7 @@ d. Feed Forward Connection
 *Example:* Chatgpt, gpt-2, gpt-3 , PaLM, etc. 
 
 ## Emergent Cababilities in LLMS:
+
 Models abilities that are not present in small scale LM, but on scaling, emerges. first was seen on gpt2-xl model. 
 Eg. 3-digit addition and subtraction on GPT3-13B model.
 
