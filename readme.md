@@ -45,10 +45,13 @@ Eg. 3-digit addition and subtraction on GPT3-13B model.
 **a. In-Context Learning:** LLM's ability to learn task without required to finetune on that specific task. Earlier models before gpt3 (eg. gpt1, gpt2) required finetuning on downstream task such as summarization, question-answering, NER etc. But here we provide the sample task with few-shot demonstration along with the prompt.
 
 #### i. Supervised and Self-Supervised In-Context Training:
-- Includes different supervised finetuning techniques by constructing ICL training dataset.
+- Includes different supervised finetuning techniques by constructing ICL training dataset.eg. MetaICL
 - However these approach does well to some extent, but quickly reach the saturation performance as training data increases.
 
+
 **b. Instruction Following:** LLM's gained the ability to follow instruction better to perform specific task. Task that are given to LLMs with specific instruction tends to perform better than without the proper instructions.
+
+- Training LLM on Instruction tuned dataset with task description improves the in-context learning abilities.
 
 **c. Step By Step Reasoning:** This prompting method is usefoul for task that requires multi-step reasoning. Model performance imporves as we go with step by step reasoning process. Rather than interacting with straight Question and Answer approach, if we break down the task into sub task, the model tends to perform better.
 Eg. Chain-of-Thought(CoT) prompting improved the arithmetic reasoning benchmarks
