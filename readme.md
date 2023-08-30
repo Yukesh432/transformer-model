@@ -54,6 +54,14 @@ Apart from pretraining, the another area of work focuses on the **inference**. U
 
 #### Demonstration Designing:
 
+It includes:
+
+- **Demonstration Organization:** 
+
+
+- **Demonstration Formatting:**
+- 
+
 
 **b. Instruction Following:** LLM's gained the ability to follow instruction better to perform specific task. Task that are given to LLMs with specific instruction tends to perform better than without the proper instructions.
 
