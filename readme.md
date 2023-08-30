@@ -45,7 +45,7 @@ Eg. 3-digit addition and subtraction on GPT3-13B model.
 **a. In-Context Learning:** LLM's ability to learn task without required to finetune on that specific task. Earlier models before gpt3 (eg. gpt1, gpt2) required finetuning on downstream task such as summarization, question-answering, NER etc. But here we provide the sample task with few-shot demonstration along with the prompt.
 
 #### i. Supervised and Self-Supervised In-Context Training:
-- Includes different supervised finetuning techniques by constructing ICL training dataset.eg. MetaICL
+- Includes different supervised finetuning techniques by constructing ICL training dataset.eg. MetaICL, PICL
 - However these approach does well to some extent, but quickly reach the saturation performance as training data increases.
 
 
