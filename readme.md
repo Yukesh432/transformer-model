@@ -79,3 +79,4 @@ Eg. Chain-of-Thought(CoT) prompting improved the arithmetic reasoning benchmarks
 - [A Survey on In-context Learning](https://arxiv.org/pdf/2301.00234.pdf)
 - [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
+- [A Survey on Model Compression for Large Language Models](https://arxiv.org/pdf/2308.07633.pdf)
