@@ -65,6 +65,8 @@ It includes:
 **c. Step By Step Reasoning:** This prompting method is useful for task that requires multi-step reasoning. Model performance imporves as we go with step by step reasoning process. Rather than interacting with straight Question and Answer approach, if we break down the task into sub task, the model tends to perform better.
 Eg. Chain-of-Thought(CoT) prompting improved the arithmetic reasoning benchmarks
 
+### Model Compression Techniques
+
 ### Why In-context Learning Works?
 
 ### Different Attention Mechanishm in LLMs
