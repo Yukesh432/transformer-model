@@ -60,15 +60,13 @@ It includes:
 
 - **Demonstration Formatting:** Demonstration formatting deals with how we present the task sample for few-shot learning. A common way is to concatenate the user query and task sample with a template. Differenet prompt engineering techniques deals with how do we demonstrate the task. We can portays the dample data in a form of yes/no question, or chain-of-thought reasoning format, etc.  
 
-#### Why In-context Learning Works? 
-
-
 **b. Instruction Following:** LLM's gained the ability to follow instruction better to perform specific task. Task that are given to LLMs with specific instruction tends to perform better than without the proper instructions. This ability is derived from in-context learning(ICL) capabilites of LLMs. Training LLM on Instruction tuned dataset with task description improves the in-context learning abilities.
 
 **c. Step By Step Reasoning:** This prompting method is useful for task that requires multi-step reasoning. Model performance imporves as we go with step by step reasoning process. Rather than interacting with straight Question and Answer approach, if we break down the task into sub task, the model tends to perform better.
 Eg. Chain-of-Thought(CoT) prompting improved the arithmetic reasoning benchmarks
 
-
+### Why In-context Learning Works?
+ 
 
 ## Reference papers:
 
