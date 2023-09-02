@@ -80,3 +80,4 @@ Eg. Chain-of-Thought(CoT) prompting improved the arithmetic reasoning benchmarks
 - [Use of LLMs for Illicit Purposes: Threats, Prevention Measures, and Vulnerabilities](https://arxiv.org/pdf/2308.12833.pdf)
 - [A Survey on Model Compression for Large Language Models](https://arxiv.org/pdf/2308.07633.pdf)
 - [SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems](https://arxiv.org/pdf/1905.00537v3.pdf)
+- [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165v4.pdf)
