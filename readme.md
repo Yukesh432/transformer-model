@@ -66,7 +66,8 @@ It includes:
 Eg. Chain-of-Thought(CoT) prompting improved the arithmetic reasoning benchmarks
 
 ### Why In-context Learning Works?
- 
+
+### Different Attention Mechanishm in LLMs
 
 ## Reference papers:
 
