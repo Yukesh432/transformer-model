@@ -65,9 +65,10 @@ It includes:
 **c. Step By Step Reasoning:** This prompting method is useful for task that requires multi-step reasoning. Model performance imporves as we go with step by step reasoning process. Rather than interacting with straight Question and Answer approach, if we break down the task into sub task, the model tends to perform better.
 Eg. Chain-of-Thought(CoT) prompting improved the arithmetic reasoning benchmarks
 
-### Model Compression Techniques
-
 ### Why In-context Learning Works?
+
+
+### Model Compression Techniques
 
 ### Different Attention Mechanishm in LLMs
 
@@ -75,6 +76,7 @@ Eg. Chain-of-Thought(CoT) prompting improved the arithmetic reasoning benchmarks
 
 - [What Language Model Architecture and Pretraining Objective Work Best for Zero-Shot Generalization?](https://arxiv.org/pdf/2204.05832.pdf)
 - [Emergent Abilities of Large Language Models](https://arxiv.org/pdf/2206.07682.pdf)
+- [Data Distributional Properties Drive Emergent In-Context Learning in Transformers](https://arxiv.org/pdf/2205.05055.pdf)
 - [A Survey on In-context Learning](https://arxiv.org/pdf/2301.00234.pdf)
 - [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
