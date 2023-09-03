@@ -67,6 +67,7 @@ Eg. Chain-of-Thought(CoT) prompting improved the arithmetic reasoning benchmarks
 
 ### Why In-context Learning Works?
 
+Studies have shown that, the ability to perform few-shot learning in transformer models without changing the weights depends on various factors. In-context learning capabilities in transformer models depends upon training data distribution, 
 
 ### Model Compression Techniques
 
@@ -84,3 +85,4 @@ Eg. Chain-of-Thought(CoT) prompting improved the arithmetic reasoning benchmarks
 - [A Survey on Model Compression for Large Language Models](https://arxiv.org/pdf/2308.07633.pdf)
 - [SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems](https://arxiv.org/pdf/1905.00537v3.pdf)
 - [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165v4.pdf)
+- [Zipfian distribution](https://en.wikipedia.org/wiki/Zipf%27s_law)
