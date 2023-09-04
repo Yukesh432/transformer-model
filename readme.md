@@ -67,7 +67,7 @@ Eg. Chain-of-Thought(CoT) prompting improved the arithmetic reasoning benchmarks
 
 ### Why In-context Learning Works?
 
-Studies have shown that, the ability to perform few-shot learning in transformer models without changing the weights depends on various factors. In-context learning capabilities in transformer models depends upon training data distributional properties, 
+Studies have shown that, the ability to perform in-context learning in transformer models without changing the weights depends on various factors. In-context learning capabilities in transformer models depends upon training data distributional properties, 
 
 ### Model Compression Techniques
 
@@ -80,6 +80,8 @@ Studies have shown that, the ability to perform few-shot learning in transformer
 - [Data Distributional Properties Drive Emergent In-Context Learning in Transformers](https://arxiv.org/pdf/2205.05055.pdf)
 - [What Can Transformers Learn In-Context? A Case Study of Simple Function Classes](https://arxiv.org/pdf/2208.01066)
 - [A Survey on In-context Learning](https://arxiv.org/pdf/2301.00234.pdf)
+- [Locating and Editing Factual Associations in GPT](https://arxiv.org/pdf/2202.05262.pdf)
+- [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/pdf/2012.14913.pdf)
 - [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361)
 - [Attention Is All You Need](https://arxiv.org/pdf/1706.03762.pdf)
 - [Use of LLMs for Illicit Purposes: Threats, Prevention Measures, and Vulnerabilities](https://arxiv.org/pdf/2308.12833.pdf)
