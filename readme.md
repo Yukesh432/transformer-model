@@ -100,7 +100,18 @@ d. Low-rank Factorization
 
 ### Evaluation metrics for LLMs:
 
+- Perplexity
+- Human Evaluation
+- BLEU score
+- ROGUE Score
+
 ### Benchmarking Datasets:
+
+- GLUE
+- SuperGLUE
+- LAMBADA
+- StrategyQA
+- SQuAD
 
 
 ## Reference papers:
