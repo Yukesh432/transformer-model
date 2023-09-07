@@ -71,7 +71,15 @@ Studies have shown that, the ability to perform in-context learning in transform
 - In-context learning capabilities in transformer models depends upon training data distributional properties.
 - When pretraining distribution contains the sufficient amount of compositional structure of linguistics. 
 
-### Model Compression Techniques
+### Model Compression Techniques:
+
+a. Knowledge Distillation
+
+b. Prunning
+
+c. Quantization
+
+d. Low-rank Factorization
 
 ### Different Attention Mechanishm in LLMs
 
