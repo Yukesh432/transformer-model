@@ -68,7 +68,7 @@ Eg. Chain-of-Thought(CoT) prompting improved the arithmetic reasoning benchmarks
 ### Why In-context Learning Works?
 
 Studies have shown that, the ability to perform in-context learning in transformer models without changing the weights depends on various factors. Experimenting the workings and ICL abilitis of Transformer architecture on a controlled setup has yield promising results about the theoritical understanding of why such thing works, yet no concrete theory exists. However, following experiments and studies have helped us to understand a bit more about the ICL properties. 
-- In-context learning capabilities in transformer models depends upon training data distributional properties,
+- In-context learning capabilities in transformer models depends upon training data distributional properties.
 - When pretraining distribution contains the sufficient amount of compositional structure of linguistics. 
 
 ### Model Compression Techniques
@@ -92,3 +92,4 @@ Studies have shown that, the ability to perform in-context learning in transform
 - [SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems](https://arxiv.org/pdf/1905.00537v3.pdf)
 - [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165v4.pdf)
 - [Zipfian distribution](https://en.wikipedia.org/wiki/Zipf%27s_law)
+- [Optimal Brain Damange](https://proceedings.neurips.cc/paper/1989/file/6c9882bbac1c7093bd25041881277658-Paper.pdf)
