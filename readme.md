@@ -134,3 +134,4 @@ d. Low-rank Factorization
 - [Optimal Brain Damange](https://proceedings.neurips.cc/paper/1989/file/6c9882bbac1c7093bd25041881277658-Paper.pdf)
 - [Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback](https://arxiv.org/pdf/2307.15217.pdf)
 - [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/pdf/2308.11432.pdf)
+- [Distilling the Knowledge in a Neural Network](https://arxiv.org/pdf/1503.02531.pdf)
