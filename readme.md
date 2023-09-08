@@ -132,3 +132,5 @@ d. Low-rank Factorization
 - [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165v4.pdf)
 - [Zipfian distribution](https://en.wikipedia.org/wiki/Zipf%27s_law)
 - [Optimal Brain Damange](https://proceedings.neurips.cc/paper/1989/file/6c9882bbac1c7093bd25041881277658-Paper.pdf)
+- [Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback](https://arxiv.org/pdf/2307.15217.pdf)
+- [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/pdf/2308.11432.pdf)
