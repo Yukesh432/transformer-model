@@ -135,3 +135,4 @@ d. Low-rank Factorization
 - [Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback](https://arxiv.org/pdf/2307.15217.pdf)
 - [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/pdf/2308.11432.pdf)
 - [Distilling the Knowledge in a Neural Network](https://arxiv.org/pdf/1503.02531.pdf)
+- [Model Compression](https://www.cs.cornell.edu/~caruana/compression.kdd06.pdf)
