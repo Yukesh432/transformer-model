@@ -73,20 +73,20 @@ Studies have shown that, the ability to perform in-context learning in transform
 
 ### Model Compression Techniques:
 
-a. Knowledge Distillation
+**a. Knowledge Distillation**
 
 - Standard Knowledge Distillation
 
 - Emergent Abilities(EA)-based Knowledge Distillation
 
-b. Prunning
+**b. Prunning**
 
 - Structured Prunning
 
 - Unstructured Prunning
 
 
-c. Quantization
+**c. Quantization**
 
 - Quantization-aware Training
 
@@ -94,7 +94,7 @@ c. Quantization
 
 - Post-training Quantization
 
-d. Low-rank Factorization
+**d. Low-rank Factorization**
 
 ### Different Attention Mechanishm in LLMs
 
