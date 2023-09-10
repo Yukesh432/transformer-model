@@ -136,3 +136,5 @@ Studies have shown that, the ability to perform in-context learning in transform
 - [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/pdf/2308.11432.pdf)
 - [Distilling the Knowledge in a Neural Network](https://arxiv.org/pdf/1503.02531.pdf)
 - [Model Compression](https://www.cs.cornell.edu/~caruana/compression.kdd06.pdf)
+- [A Survey of Transformers](https://arxiv.org/pdf/2106.04554.pdf)
+- [ATTENTION, PLEASE! A SURVEY OF NEURAL ATTENTION MODELS IN DEEP LEARNING](https://arxiv.org/pdf/2103.16775.pdf)
