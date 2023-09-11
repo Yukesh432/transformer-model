@@ -140,3 +140,6 @@ Studies have shown that, the ability to perform in-context learning in transform
 - [ATTENTION, PLEASE! A SURVEY OF NEURAL ATTENTION MODELS IN DEEP LEARNING](https://arxiv.org/pdf/2103.16775.pdf)
 - [Large Language Models as General Pattern Machines](https://arxiv.org/pdf/2307.04721.pdf)
 - [The ConceptARC Benchmark: Evaluating Understanding and Generalization in the ARC Domain](https://arxiv.org/abs/2305.07141)
+- [Verbal Disputes](https://consc.net/papers/verbal.pdf)
+- [The Debate Over Understanding in AI’s Large Language Models](https://arxiv.org/pdf/2210.13966.pdf)
+
