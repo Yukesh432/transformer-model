@@ -142,4 +142,4 @@ Studies have shown that, the ability to perform in-context learning in transform
 - [The ConceptARC Benchmark: Evaluating Understanding and Generalization in the ARC Domain](https://arxiv.org/abs/2305.07141)
 - [Verbal Disputes](https://consc.net/papers/verbal.pdf)
 - [The Debate Over Understanding in AI’s Large Language Models](https://arxiv.org/pdf/2210.13966.pdf)
-
+- [Reasoning or Reciting? Exploring the Capabilities and Limitations of Language Models Through Counterfactual Tasks](https://arxiv.orgpdf/2307.02477v2.pdf)
