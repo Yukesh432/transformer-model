@@ -33,6 +33,14 @@ d. Feed Forward Connection
 
 **Decoder Architecture:** The function of decoder architecture is to generate the output text(eg. text-generation). The pretraining objective for these models are mainly autoregressive language modeling and masked language modeling.
 
+Example of Autoregressive LM: 
+- The sun rise in the ...
+- One upon a time there was ...
+
+Example of Masked LM :
+- The [MASK] brown [MASK] jump over a [MASK] dog.
+- She was having a pepperoni [MASK] tonight.
+
 *Example:* Chatgpt, gpt-2, gpt-3 , PaLM, etc. 
 
 ## Emergent Cababilities in LLMS:
