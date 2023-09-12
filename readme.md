@@ -41,7 +41,7 @@ Example of Masked LM :
 - The [MASK] brown [MASK] jump over a [MASK] dog.
 - She was having a pepperoni [MASK] tonight.
 
-*Example:* Chatgpt, gpt-2, gpt-3 , PaLM, etc. 
+*Decoder-only architecture example:* Chatgpt, gpt-2, gpt-3 , PaLM, etc. 
 
 ## Emergent Cababilities in LLMS:
 
