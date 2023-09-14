@@ -64,7 +64,15 @@ Apart from pretraining, the another area of work focuses on the ICL capabilities
 
 It includes:
 
-- **Demonstration Organization:** When we have set of example data, demonstration organization involves picking some examples and deciding their order. In demonstration organization , we have demonstration selection and ordering. While considering ICL capabilites, it is important to consider which examples are good enough examples for incontext learning scenarios. Different supervised method and unsupervised methods are used to select the appropriate task examples for ICL. Once we find out the relevent demonstration examples, the ordering of these examples also matters to get the desired output from LLMs while using ICL.
+- **Demonstration Organization:** When we have set of example data, demonstration organization involves picking some examples and deciding their order. In demonstration organization , we have demonstration selection and ordering. While considering ICL capabilites, it is important to consider which examples are good enough examples for incontext learning scenarios. Different supervised method and unsupervised methods are used to select the appropriate task examples for ICL. Once we find out the relevent demonstration examples, the ordering of these examples also matters to get the desired output from LLMs while using ICL. The experiment was performed on GPT-2 and GPT-3 model and its varients.
+
+**Experimentation Task:**
+Task and their corresponding dataset:
+- text classification: **SST-2** dataset, 6-way question classification **TREC**, textual entailment **CB** and binary **RTE** SuperGLUE, **AGNews**, **DBPedia**.  
+- Fact retrieval:
+- Information Extraction.
+
+**
 
 Example:
 
