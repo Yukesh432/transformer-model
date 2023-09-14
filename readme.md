@@ -158,3 +158,4 @@ Studies have shown that, the ability to perform in-context learning in transform
 - [The Debate Over Understanding in AI’s Large Language Models](https://arxiv.org/pdf/2210.13966.pdf)
 - [Reasoning or Reciting? Exploring the Capabilities and Limitations of Language Models Through Counterfactual Tasks](https://arxiv.orgpdf/2307.02477v2.pdf)
 - [GPT Can Solve Mathematical Problems Without a Calculator](https://arxiv.org/pdf/2309.03241.pdf)
+- [Calibrate Before Use: Improving Few-Shot Performance of Language Models](http://proceedings.mlr.press/v139/zhao21c/zhao21c.pdf)
