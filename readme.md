@@ -69,8 +69,8 @@ It includes:
 **Experimentation Task:**
 Task and their corresponding dataset:
 - text classification: **SST-2** dataset, 6-way question classification **TREC**, textual entailment **CB** and binary **RTE** SuperGLUE, **AGNews**, **DBPedia**.  
-- Fact retrieval:
-- Information Extraction.
+- Fact retrieval: **LAMA**
+- Information Extraction: **ATIS**, **MIT Movies** trivia10k13
 
 **
 
