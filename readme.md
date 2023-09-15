@@ -83,15 +83,25 @@ Why there is variations?
 PROMPT:
 """
 Review: Thie pizza is good enough for me
+
 Sentiment: Positive
+
 Review: I dont like that movie much
+
 Sentiment: Negative
+
 Review: This is a very congested place to live in,
+
 Sentiment: Negative
+
 Review: Your joke doesnt make me laugh. It just made me feel sad.
+
 Sentiment: Negative
+
 Review: The weather is nice. We're going hike.
+
 Sentiment: 
+
 """
 Here in the last line , the probable output sentiment is "Negative". Why? Due to imbalance class
 
