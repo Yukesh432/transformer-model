@@ -73,9 +73,13 @@ Task and their corresponding dataset:
 - Information Extraction: **ATIS**, **MIT Movies** trivia10k13
 
 Findings:
+
 a. GPT-3 accuracy varies across different training examples, permutations, and prompt formats.
+
 Why there is variations?
+
 --- Majority Label Bias i.e. GPT3 is biased towards answers that are frequent in the prompt. Eg. when a text classification prompt has class imbalance in few shot setting, i.e. if we have something like :
+
 PROMPT:
 """
 Review: Thie pizza is good enough for me
