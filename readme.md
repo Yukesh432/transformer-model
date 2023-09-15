@@ -64,7 +64,7 @@ Apart from pretraining, the another area of work focuses on the ICL capabilities
 
 It includes:
 
-- **Demonstration Organization:** When we have set of example data, demonstration organization involves picking some examples and deciding their order. In demonstration organization , we have demonstration selection and ordering. While considering ICL capabilites, it is important to consider which examples are good enough examples for incontext learning scenarios. Different supervised method and unsupervised methods are used to select the appropriate task examples for ICL. Once we find out the relevent demonstration examples, the ordering of these examples also matters to get the desired output from LLMs while using ICL. The experiment was performed on GPT-2 and GPT-3 model and its varients.
+- **Demonstration Organization:** When we have set of example data, demonstration organization involves picking some examples and deciding their order. In demonstration organization , we have demonstration selection and ordering. While considering ICL capabilites, it is important to consider which examples are good enough examples for incontext learning scenarios. Different supervised method and unsupervised methods are used to select the appropriate task examples for ICL. Once we find out the relevent demonstration examples, the ordering of these examples also matters to get the desired output from LLMs while using ICL. The experiment related to demonstration organization was performed on GPT-2 and GPT-3 model and its varients.
 
 **Experimentation Task:**
 Task and their corresponding dataset:
@@ -72,10 +72,8 @@ Task and their corresponding dataset:
 - Fact retrieval: **LAMA**
 - Information Extraction: **ATIS**, **MIT Movies** trivia10k13
 
-**
-
-Example:
-
+Findings:
+a. GPT-3 accuracy varies across different training examples, permutations, and prompt formats.
 
 - **Demonstration Formatting:** Demonstration formatting deals with how we present the task sample for few-shot learning. A common way is to concatenate the user query and task sample with a template. Differenet prompt engineering techniques deals with how do we demonstrate the task. We can portays the dample data in a form of yes/no question, or chain-of-thought reasoning format, etc.
 
