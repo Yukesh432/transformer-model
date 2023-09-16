@@ -78,7 +78,8 @@ a. GPT-3 accuracy varies across different training examples, permutations, and p
 
 Why there is variations?
 
----Majority Label Bias i.e. GPT3 is biased towards answers that are frequent in the prompt. Eg. when a text classification prompt has class imbalance in few shot setting, i.e. if we have something like :
+---Majority Label Bias
+- GPT3 is biased towards answers that are frequent in the prompt. Eg. when a text classification prompt has class imbalance in few shot setting, i.e. if we have something like :
 
 PROMPT:
 
