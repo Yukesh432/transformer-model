@@ -78,32 +78,40 @@ a. GPT-3 accuracy varies across different training examples, permutations, and p
 
 Why there is variations?
 
---- Majority Label Bias i.e. GPT3 is biased towards answers that are frequent in the prompt. Eg. when a text classification prompt has class imbalance in few shot setting, i.e. if we have something like :
+---Majority Label Bias i.e. GPT3 is biased towards answers that are frequent in the prompt. Eg. when a text classification prompt has class imbalance in few shot setting, i.e. if we have something like :
 
 PROMPT:
+
+
+*Review: Thie pizza is good enough for me*
+
+*Sentiment: Positive*
+
+*Review: I dont like that movie much*
+
+*Sentiment: Negative*
+
+*Review: This is a very congested place to live in*
+
+*Sentiment: Negative*
+
+*Review: Your joke doesnt make me laugh. It just made me feel sad.*
+
+*Sentiment: Negative*
+
+*Review: The weather is nice. We're going hike.*
+
+*Sentiment:*
 """
-Review: Thie pizza is good enough for me
 
-Sentiment: Positive
-
-Review: I dont like that movie much
-
-Sentiment: Negative
-
-Review: This is a very congested place to live in,
-
-Sentiment: Negative
-
-Review: Your joke doesnt make me laugh. It just made me feel sad.
-
-Sentiment: Negative
-
-Review: The weather is nice. We're going hike.
-
-Sentiment: 
-
-"""
 Here in the last line , the probable output sentiment is "Negative". Why? Due to imbalance class
+
+--- Recency Bias:
+
+--- Common Token Bias:
+
+Contextual Calibration Helps to improve the variation seen in this setting.
+
 
 - **Demonstration Formatting:** Demonstration formatting deals with how we present the task sample for few-shot learning. A common way is to concatenate the user query and task sample with a template. Differenet prompt engineering techniques deals with how do we demonstrate the task. We can portays the dample data in a form of yes/no question, or chain-of-thought reasoning format, etc.
 
