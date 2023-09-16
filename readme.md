@@ -102,15 +102,14 @@ PROMPT:
 *Review: The weather is nice. We're going hike.*
 
 *Sentiment:*
-"""
 
-Here in the last line , the probable output sentiment is "Negative". Why? Due to imbalance class
+Here in the last line , the probable output sentiment is "Negative". Why?--> Due to imbalance class
 
 --- Recency Bias:
 
 --- Common Token Bias:
 
-Contextual Calibration Helps to improve the variation seen in this setting.
+*Contextual Calibration Helps to improve the variation seen in this setting.*
 
 
 - **Demonstration Formatting:** Demonstration formatting deals with how we present the task sample for few-shot learning. A common way is to concatenate the user query and task sample with a template. Differenet prompt engineering techniques deals with how do we demonstrate the task. We can portays the dample data in a form of yes/no question, or chain-of-thought reasoning format, etc.
