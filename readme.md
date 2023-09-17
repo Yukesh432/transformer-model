@@ -158,6 +158,9 @@ Studies have shown that, the ability to perform in-context learning in transform
 
 ### Different Attention Mechanishm in LLMs
 
+- Fast Attention
+- Flash attention
+
 ### Evaluation metrics for LLMs:
 
 - Perplexity
