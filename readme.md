@@ -209,3 +209,5 @@ Studies have shown that, the ability to perform in-context learning in transform
 - [GPT Can Solve Mathematical Problems Without a Calculator](https://arxiv.org/pdf/2309.03241.pdf)
 - [Calibrate Before Use: Improving Few-Shot Performance of Language Models](http://proceedings.mlr.press/v139/zhao21c/zhao21c.pdf)
 - [LARGE LANGUAGE MODELS AS OPTIMIZERS](https://arxiv.org/pdf/2309.03409.pdf)
+- [Challenges and Applications of Large Language Models](https://arxiv.org/pdf/2307.10169.pdf)
+- [A General Survey on Attention Mechanisms in Deep Learning](https://arxiv.org/pdf/2203.14263.pdf)
