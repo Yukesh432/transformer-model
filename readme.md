@@ -211,3 +211,4 @@ Studies have shown that, the ability to perform in-context learning in transform
 - [LARGE LANGUAGE MODELS AS OPTIMIZERS](https://arxiv.org/pdf/2309.03409.pdf)
 - [Challenges and Applications of Large Language Models](https://arxiv.org/pdf/2307.10169.pdf)
 - [A General Survey on Attention Mechanisms in Deep Learning](https://arxiv.org/pdf/2203.14263.pdf)
+- [Efficient Transformers: A Survey](https://arxiv.org/pdf/2009.06732.pdf)
