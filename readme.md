@@ -158,7 +158,10 @@ Studies have shown that, the ability to perform in-context learning in transform
 
 ### Different Attention Mechanishm in LLMs
 
-- Fast Attention
+- Self-Attention
+- Masked Self-Attention
+- Multiheaded- Attention
+- Cross-attention
 - Flash attention
 
 ### Evaluation metrics for LLMs:
