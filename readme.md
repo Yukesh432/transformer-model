@@ -164,6 +164,12 @@ Studies have shown that, the ability to perform in-context learning in transform
 - Cross-attention
 - Flash attention
 
+### Different Positional Encoding Scheme
+
+- Absolute Positional Encoding
+- Relative Positional Encoding
+- Rotatory Positional Encoding
+
 ### Evaluation metrics for LLMs:
 
 - Perplexity
