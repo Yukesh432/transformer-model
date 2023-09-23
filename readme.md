@@ -163,6 +163,8 @@ Studies have shown that, the ability to perform in-context learning in transform
 - Multiheaded- Attention
 - Cross-attention
 - Flash attention
+- Sparse Attention
+
 
 ### Different Positional Encoding Scheme
 
