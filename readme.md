@@ -190,10 +190,10 @@ Studies have shown that, the ability to perform in-context learning in transform
 ### Formal Lingustic Competence and Functional Linguistic Competence
 
 a. Formal Lingustic Capabilities
-- It includes morphology, phonology, syntax, semantics , diiscourse and other core lingustic related
+- It includes morphology, phonology, syntax, semantics, core lingustic knowledge
 
 b. Functional Linguistic Capabilities
-- Formal Reasoning, Situational modeling
+- Formal Reasoning, Situational modeling, communicative intents
 ## Reference papers:
 
 - [What Language Model Architecture and Pretraining Objective Work Best for Zero-Shot Generalization?](https://arxiv.org/pdf/2204.05832.pdf)
