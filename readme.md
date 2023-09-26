@@ -187,6 +187,7 @@ Studies have shown that, the ability to perform in-context learning in transform
 - StrategyQA
 - SQuAD
 
+### Formal Lingustic Competence and Functional Linguistic Competence
 
 ## Reference papers:
 
