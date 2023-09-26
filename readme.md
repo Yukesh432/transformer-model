@@ -194,6 +194,11 @@ a. Formal Lingustic Capabilities
 
 b. Functional Linguistic Capabilities
 - Formal Reasoning, Situational modeling, communicative intents
+
+#### Distinction between formal and functional linguistic Competence
+
+
+
 ## Reference papers:
 
 - [What Language Model Architecture and Pretraining Objective Work Best for Zero-Shot Generalization?](https://arxiv.org/pdf/2204.05832.pdf)
