@@ -72,6 +72,7 @@ Task and their corresponding dataset:
 - Fact retrieval: **LAMA**
 - Information Extraction: **ATIS**, **MIT Movies** trivia10k13
 
+
 Findings:
 
 a. GPT-3 accuracy varies across different training examples, permutations, and prompt formats.
