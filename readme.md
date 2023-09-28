@@ -190,10 +190,10 @@ Studies have shown that, the ability to perform in-context learning in transform
 
 ### Formal Lingustic Competence and Functional Linguistic Competence
 
-a. Formal Lingustic Capabilities
+**a. Formal Lingustic Capabilities**
 - It includes morphology, phonology, syntax, semantics, core lingustic knowledge
 
-b. Functional Linguistic Capabilities
+**b. Functional Linguistic Capabilities**
 - Formal Reasoning, Situational modeling, communicative intents
 
 #### Distinction between formal and functional linguistic Competence
