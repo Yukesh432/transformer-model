@@ -235,3 +235,4 @@ Studies have shown that, the ability to perform in-context learning in transform
 - [Challenges and Applications of Large Language Models](https://arxiv.org/pdf/2307.10169.pdf)
 - [A General Survey on Attention Mechanisms in Deep Learning](https://arxiv.org/pdf/2203.14263.pdf)
 - [Efficient Transformers: A Survey](https://arxiv.org/pdf/2009.06732.pdf)
+- [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf)
