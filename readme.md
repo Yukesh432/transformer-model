@@ -237,3 +237,4 @@ Studies have shown that, the ability to perform in-context learning in transform
 - [Efficient Transformers: A Survey](https://arxiv.org/pdf/2009.06732.pdf)
 - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf)
 - [Parameter-Efficient Transfer Learning for NLP]()
+- [Secrets of RLHF in Large Language Models Part I: PPO]()
