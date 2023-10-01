@@ -187,6 +187,7 @@ Studies have shown that, the ability to perform in-context learning in transform
 - LAMBADA
 - StrategyQA
 - SQuAD
+- BIG-Bench
 
 ### Formal Lingustic Competence and Functional Linguistic Competence
 
