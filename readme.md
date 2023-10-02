@@ -239,3 +239,4 @@ Studies have shown that, the ability to perform in-context learning in transform
 - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf)
 - [Parameter-Efficient Transfer Learning for NLP]()
 - [Secrets of RLHF in Large Language Models Part I: PPO]()
+- [NOAM CHOMSKY - SYNTACTIC STRUCTURES (1957)](https://vdocument.in/noam-chomsky-syntactic-structures-1957.html?page=32)
