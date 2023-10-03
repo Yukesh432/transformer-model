@@ -125,6 +125,9 @@ class MultiHeadAttentionBlock(nn.Module):
         value= self.w_v(v)
 
         query= query.view(query.shape[0], query.shape[1], self.d_k).transpose(1,2)
-        
+        key= key.view(key.shape[0], key.shape[1], self.h, self.d_k).transpose(1, 2)
+        value= value.view(value.shape[0], value.shape[1], self.h, self.d_k).transpose(1, 2)
+
+
 
 
