@@ -115,3 +115,16 @@ class MultiHeadAttentionBlock(nn.Module):
         self.w_q= nn.Linear(d_model, d_model)
         self.w_k= nn.Linear(d_model, d_model)
         self.w_v= nn.Linear(d_model, d_model)
+
+        self.w_o= nn.Linear(d_model, d_model)
+        self.dropout= nn.Dropout(dropout)
+
+    def forward(self, q, k, v, mask):
+        query= self.w_q(q)
+        key= self.w_k(k)
+        value= self.w_v(v)
+
+        query= query.view(query.shape[0], query.shape[1], self.d_k).transpose(1,2)
+        
+
+
