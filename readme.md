@@ -175,7 +175,8 @@ Studies have shown that, the ability to perform in-context learning in transform
 
 ### Evaluation metrics for LLMs:
 
-- Perplexity
+- Perplexity: It is a measure of how well the language model is good at predicting the next word.
+
 - Human Evaluation
 - BLEU score
 - ROGUE Score
