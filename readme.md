@@ -182,7 +182,7 @@ Mathematically it is given as:
 
 - Human Evaluation
 - BLEU score
-- ROGUE Score
+- ROGUE Score: Recall-Oriented Understudy for Gisting Evaluation(ROGUE) score is 
 
 ### Benchmarking Datasets:
 
