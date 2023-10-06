@@ -181,7 +181,7 @@ Mathematically it is given as:
         Perplexity= 2^H
 
 - Human Evaluation
-- BLEU score
+- BLEU score: This metric is used for standard machine translation task
 - ROGUE Score: Recall-Oriented Understudy for Gisting Evaluation(ROGUE)
 ROGUE metric is case insensative, i.e uppercase and lowercase letters are treated same way. 
 
