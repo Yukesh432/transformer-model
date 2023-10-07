@@ -58,7 +58,7 @@ The following approach is related to how at the **pre-training level**, can we l
 - Includes different supervised finetuning techniques by constructing ICL training dataset.eg. MetaICL, PICL
 - However these approach does well to some extent, but quickly reach the saturation performance as training data increases.
 
-Apart from pretraining, the another area of work focuses on the ICL capabilities during **inference time**. Using different techniques for demonstrating in-context task helps LLMs to generate desired output.
+Apart from pretraining, the another area of work focuses on the ICL capabilities during **inference time**. Using different techniques for demonstrating in-context task helps LLMs to generate desired output,i.e. different prompting strategies
 
 #### Demonstration Designing:
 
