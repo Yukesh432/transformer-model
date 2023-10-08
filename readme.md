@@ -246,3 +246,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Parameter-Efficient Transfer Learning for NLP]()
 - [Secrets of RLHF in Large Language Models Part I: PPO]()
 - [NOAM CHOMSKY - SYNTACTIC STRUCTURES (1957)](https://vdocument.in/noam-chomsky-syntactic-structures-1957.html?page=32)
+- [Training language models to follow instructions with human feedback](https://browse.arxiv.org/pdf/2203.02155.pdf)
