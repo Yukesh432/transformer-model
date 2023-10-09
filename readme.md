@@ -249,3 +249,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Training language models to follow instructions with human feedback](https://browse.arxiv.org/pdf/2203.02155.pdf)
 - [LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY](https://browse.arxiv.org/pdf/2303.03846.pdf)
 - [Rethinking the Role of Demonstrations: What Makes In-Context Learning Work?](https://browse.arxiv.org/pdf/2202.12837.pdf)
+- [Common arguments regarding emergent abilities](https://www.jasonwei.net/blog/common-arguments-regarding-emergent-abilities)
