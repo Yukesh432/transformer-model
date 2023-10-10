@@ -253,3 +253,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models](https://arxiv.org/pdf/2206.04615.pdf)
 - [LaMDA: Language Models for Dialog Applications](https://arxiv.org/pdf/2201.08239.pdf)
 - [Are Emergent Abilities of Large Language Models a Mirage?]()
+- [PaLM 2 Technical Report](https://arxiv.org/pdf/2305.10403v3.pdf)
