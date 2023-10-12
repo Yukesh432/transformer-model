@@ -257,4 +257,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [The Reversal Curse: LLMs trained on “A is B” fail to learn “B is A”](https://arxiv.org/pdf/2309.12288v1.pdf)
 - [Eight Things to Know about Large Language Models](https://arxiv.org/pdf/2304.00612.pdf)
 - [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/pdf/2204.02311.pdf)
-- 
+- [PATHWAYS: ASYNCHRONOUS DISTRIBUTED DATAFLOW FOR ML](https://arxiv.org/pdf/2203.12533.pdf)
