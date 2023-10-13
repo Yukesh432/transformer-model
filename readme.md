@@ -259,3 +259,5 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/pdf/2204.02311.pdf)
 - [PATHWAYS: ASYNCHRONOUS DISTRIBUTED DATAFLOW FOR ML](https://arxiv.org/pdf/2203.12533.pdf)
 - [Language Models (Mostly) Know What They Know](https://arxiv.org/pdf/2207.05221.pdf)
+- [Calibrate Before Use: Improving Few-Shot Performance of Language Models](https://arxiv.org/pdf/2102.09690.pdf)
+- [Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning](https://arxiv.org/pdf/2303.15647.pdf)
