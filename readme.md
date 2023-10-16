@@ -263,3 +263,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Scaling Down to Scale Up: A Guide to Parameter-Efficient Fine-Tuning](https://arxiv.org/pdf/2303.15647.pdf)
 - [Modular Deep Learning](https://arxiv.org/pdf/2302.11529.pdf)
 - [SEEING IS BELIEVING: BRAIN-INSPIRED MODULAR TRAINING FOR MECHANISTIC INTERPRETABILITY]()
+- [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS](https://openreview.net/pdf?id=nZeVKeeFYf9)
