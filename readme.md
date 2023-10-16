@@ -243,7 +243,7 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [A General Survey on Attention Mechanisms in Deep Learning](https://arxiv.org/pdf/2203.14263.pdf)
 - [Efficient Transformers: A Survey](https://arxiv.org/pdf/2009.06732.pdf)
 - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/pdf/1910.10683.pdf)
-- [Parameter-Efficient Transfer Learning for NLP]()
+- [Parameter-Efficient Transfer Learning for NLP](http://proceedings.mlr.press/v97/houlsby19a/houlsby19a.pdf)
 - [Secrets of RLHF in Large Language Models Part I: PPO]()
 - [NOAM CHOMSKY - SYNTACTIC STRUCTURES (1957)](https://vdocument.in/noam-chomsky-syntactic-structures-1957.html?page=32)
 - [Training language models to follow instructions with human feedback](https://browse.arxiv.org/pdf/2203.02155.pdf)
