@@ -163,8 +163,10 @@ class ResidualConnection(nn.Module):
     def forward(self, x, sublayer):
         return x + self.dropout(sublayer(self.norm(x)))
     
+# Creating Encoder Block
+
 class EncoderBlock(nn.Module):
-    
+
     
 
 
