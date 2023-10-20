@@ -106,7 +106,7 @@ class FeedForwardBlock(nn.Module):
 
 class MultiHeadAttentionBlock(nn.Module):
 
-    def __init__(self, d_model:int, dropout:float) ->None:
+    def __init__(self, d_model:int, h:int, dropout:float) ->None:
         super().__init__()
         self.d_model= d_model
         self.h= h
@@ -119,6 +119,17 @@ class MultiHeadAttentionBlock(nn.Module):
         self.w_o= nn.Linear(d_model, d_model)
         self.dropout= nn.Dropout(dropout)
 
+    # method to calculate attention
+
+    @staticmethod
+    def attention(query, key, value, mask, dropout= nn.Dropout):
+        d_k= query.shape[-1]
+
+        attention_scores= (query @ key.transpose(-2, -1)) / math.sqrt(d_k)
+        #masking
+        if mask is not None:
+            attention_scores.masked_fill_(mask ==0, -1e9)
+
     def forward(self, q, k, v, mask):
         query= self.w_q(q)
         key= self.w_k(k)
@@ -127,6 +138,8 @@ class MultiHeadAttentionBlock(nn.Module):
         query= query.view(query.shape[0], query.shape[1], self.d_k).transpose(1,2)
         key= key.view(key.shape[0], key.shape[1], self.h, self.d_k).transpose(1, 2)
         value= value.view(value.shape[0], value.shape[1], self.h, self.d_k).transpose(1, 2)
+
+
 
 
 
