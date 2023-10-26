@@ -266,3 +266,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Progress measures for grokking via mechanistic interpretability](https://www.semanticscholar.org/readerc9ef79d6d47c90722a10c32c64c752eb0343fd61)
 - [LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS](https://openreview.net/pdf?id=nZeVKeeFYf9)
 - [Learning representations by backpropagating errors](https://www.iro.umontreal.ca/~vincentp/ift3395/lectures/backprop_old.pdf)
+- [LLMs for Knowledge Graph Construction and Reasoning:Recent Capabilities and Future Opportunities](https://arxiv.org/pdf/2305.13168.pdf)
