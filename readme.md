@@ -203,6 +203,7 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 **b. Functional Linguistic Capabilities**
 - Formal Reasoning, Situational modeling, communicative intents
 
+
 #### Distinction between formal and functional linguistic Competence
 
 
