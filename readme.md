@@ -269,3 +269,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [LLMs for Knowledge Graph Construction and Reasoning:Recent Capabilities and Future Opportunities](https://arxiv.org/pdf/2305.13168.pdf)
 -[GPT-4 Doesn’t Know It’s Wrong: An Analysis of Iterative Prompting for Reasoning Problems](https://arxiv.org/pdf/2310.12397.pdf)
 - [A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions](https://arxiv.org/pdf/2311.05232.pdf)
+-[AI for Mathematics: A Cognitive Science Perspective](https://arxiv.org/pdf/2310.13021.pdf)
