@@ -5,15 +5,15 @@ def load_model(model_path):
     model = GPT2LMHeadModel.from_pretrained(model_path)
     return model, tokenizer
 
-def generate_text(prompt, model, tokenizer, max_length=50):
+def generate_text(prompt, model, tokenizer, max_length=150):
     inputs = tokenizer.encode(prompt, return_tensors='pt')
-    outputs = model.generate(inputs, max_length=max_length, num_return_sequences=1)
+    outputs = model.generate(inputs, max_length=max_length, temperature= 0.5, num_return_sequences=1)
     return tokenizer.decode(outputs[0], skip_special_tokens=True)
 
 if __name__ == "__main__":
     model_path = './trained_model'
     model, tokenizer = load_model(model_path)
 
-    test_prompt = "once i saw that ghost, then "
+    test_prompt = "What is deep neural network?"
     generated_text = generate_text(test_prompt, model, tokenizer)
     print(generated_text)
