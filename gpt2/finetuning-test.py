@@ -19,29 +19,29 @@ def train_gpt2():
     # labels= [1,0,1]
 
     # dataset= load_dataset('text', data_files='v0.1_combined_transcripts.txt')['train']
-    dataset= load_dataset('imdb', split='train')
+    train_dataset= load_dataset('imdb', split='train')
 
     def tokenize_function(examples):
         return tokenizer(examples["text"], padding='max_length', truncation=True, max_length=512)
 
     # dataset= Dataset.from_dict({'text': texts, 'labels': labels})
-    tokenized_dataset = dataset.map(tokenize_function, batched=True)
+    tokenized_train_dataset = train_dataset.map(tokenize_function, batched=True)
     # tokenized_dataset = tokenized_dataset.remove_columns(['text'])
     # tokenized_dataset.set_format('torch', columns=['input_ids', 'attention_mask'])
-    tokenized_dataset.set_format('torch', columns=['input_ids', 'attention_mask', 'label'])
+    tokenized_train_dataset.set_format('torch', columns=['input_ids', 'attention_mask', 'label'])
 
     # Define Data Collator
     # data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
     # for evaluation data
-    eval_data= load_dataset('imdb', split='test')
-    eval_tokenized_data= dataset.map(tokenize_function, batched=True)
-    eval_tokenized_data.set_format('torch', columns=['input_ids', 'attention_mask', 'label'])
+    eval_dataset= load_dataset('imdb', split='test')
+    tokenized_eval_data= eval_dataset.map(tokenize_function, batched=True)
+    tokenized_eval_data.set_format('torch', columns=['input_ids', 'attention_mask', 'label'])
 
     # Training arguments
     training_args = TrainingArguments(
         output_dir='./results',
-        num_train_epochs=5,
+        num_train_epochs=2,
         per_device_train_batch_size=1,  # Reduced batch size
         gradient_accumulation_steps=2,  # Gradient accumulation
         logging_dir='./logs',
@@ -54,8 +54,8 @@ def train_gpt2():
     trainer = Trainer(
         model=model,
         args=training_args,
-        train_dataset=tokenized_dataset,
-        eval_dataset=eval_tokenized_data
+        train_dataset=tokenized_train_dataset,
+        eval_dataset=tokenized_eval_data
         # data_collator=data_collator,
     )
 
