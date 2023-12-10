@@ -273,4 +273,5 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions](https://arxiv.org/pdf/2311.05232.pdf)
 -[AI for Mathematics: A Cognitive Science Perspective](https://arxiv.org/pdf/2310.13021.pdf)
 - [Levels of AGI: Operationalizing Progress on the Path to AGI]()
+- [Gemini: A Family of Highly Capable Multimodal Models](https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf)
 
