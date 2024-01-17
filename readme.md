@@ -280,4 +280,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Multimodal Large Language Models: A Survey](https://arxiv.org/pdf/2311.13165.pdf)
 - [Supervised structure learning](https://arxiv.org/pdf/2311.10300.pdf)
 - [Efficient LLM inference solution on Intel GPU](https://arxiv.org/ftp/arxiv/papers/2401/2401.05391.pdf)
-- [](s)
+- [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/pdf/2309.06180.pdf)
