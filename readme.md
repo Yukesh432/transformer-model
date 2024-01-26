@@ -285,3 +285,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [UNIVERSAL NEURONS IN GPT2 LANGUAGE MODELS](https://arxiv.org/pdf/2401.12181.pdf)
 - [Foundations of Vector Retrieval](https://arxiv.org/pdf/2401.09350.pdf)
 - [SPOTTING LLMS WITH BINOCULARS: ZERO-SHOT DETECTION OF MACHINE-GENERATED TEXT](https://arxiv.org/pdf/2401.12070.pdf)
+- [Self-Rewarding Language Models](https://arxiv.org/pdf/2401.10020.pdf)
