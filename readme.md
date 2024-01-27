@@ -287,3 +287,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [SPOTTING LLMS WITH BINOCULARS: ZERO-SHOT DETECTION OF MACHINE-GENERATED TEXT](https://arxiv.org/pdf/2401.12070.pdf)
 - [Self-Rewarding Language Models](https://arxiv.org/pdf/2401.10020.pdf)
 - [Everything of Thoughts: Defying the Law of Penrose Triangle for Thought Generation](https://arxiv.org/pdf/2311.04254.pdf)
+- []()
