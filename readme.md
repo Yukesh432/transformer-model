@@ -272,7 +272,7 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 -[GPT-4 Doesn’t Know It’s Wrong: An Analysis of Iterative Prompting for Reasoning Problems](https://arxiv.org/pdf/2310.12397.pdf)
 - [A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions](https://arxiv.org/pdf/2311.05232.pdf)
 -[AI for Mathematics: A Cognitive Science Perspective](https://arxiv.org/pdf/2310.13021.pdf)
-- [Levels of AGI: Operationalizing Progress on the Path to AGI]()
+- [Levels of AGI: Operationalizing Progress on the Path to AGI](https://arxiv.org/abs/2311.02462)
 - [Gemini: A Family of Highly Capable Multimodal Models](https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf)
 - [A New Approach to Linear Filtering and Prediction Problems1](https://www.cs.unc.edu/~welch/kalman/media/pdf/Kalman1960.pdf)
 - [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/ftp/arxiv/papers/2312/2312.00752.pdf)
