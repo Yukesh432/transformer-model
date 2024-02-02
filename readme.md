@@ -289,3 +289,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Everything of Thoughts: Defying the Law of Penrose Triangle for Thought Generation](https://arxiv.org/pdf/2311.04254.pdf)
 - [Learning Universal Predictors](https://arxiv.org/pdf/2401.14953.pdf)
 - [DOLMA: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research](https://allenai.org/olmo/dolma-paper.pdf)
+- [Seven Failure Points When Engineering a Retrieval Augmented Generation System](https://arxiv.org/pdf/2401.05856.pdf)
