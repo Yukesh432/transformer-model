@@ -47,7 +47,7 @@ Example of Masked LM :
 
 ### Pretraining and Finetuning:
 
-Pretraining is the process of traning any neural network based deep learning model to learn the latent structure present in the corpus of data. Data can be in any form like text, audio, images, video, etc. As a result of pretraining, what we get is a model which is trained on different pre-training objective according to different modalities of Data.
+Pretraining is the process of traning any neural network architecture to learn the latent structure present in the corpus of data. Data can be in any form like text, audio, images, video, etc. As a result of pretraining, what we get is a model which is trained on different pre-training objective according to different modalities of Data.
 Pretrained Objectives vary for different pretraining task and data.
 
 For text Data, the pretraining objective might be:
