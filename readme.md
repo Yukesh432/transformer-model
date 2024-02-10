@@ -53,6 +53,9 @@ Pretrained Objectives vary for different pretraining task and data.
 For text Data, the pretraining objective might be:
 - Masked Language Modelling
 - Next sentence Prediction
+- Causal Language Modelling
+- Permutation Language Modelling
+
 
 
 ## Emergent Cababilities in LLMS:
@@ -309,3 +312,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [UNDERSTANDING IN-CONTEXT LEARNING IN TRANSFORMERS AND LLMS BY LEARNING TO LEARN DISCRETE FUNCTIONS](https://arxiv.org/pdf/2310.03016.pdf)
 - [A Survey of Large Language Models](https://arxiv.org/pdf/2303.18223.pdf)
 - [A Survey of Vision-Language Pre-Trained Models](https://arxiv.org/pdf/2202.10936.pdf)
+- [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf?)
