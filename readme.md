@@ -45,6 +45,16 @@ Example of Masked LM :
 
 *Decoder-only architecture example:* Chatgpt, gpt-2, gpt-3 , PaLM, etc. 
 
+### Pretraining and Finetuning:
+
+Pretraining is the process of traning any neural network based deep learning model to learn the latent structure present in the corpus of data. Data can be in any form like text, audio, images, video, etc. As a result of pretraining, what we get is a model which is trained on different pre-training objective according to different modalities of Data.
+Pretrained Objectives vary for different pretraining task and data.
+
+For text Data, the pretraining objective might be:
+- Masked Language Modelling
+- Next sentence Prediction
+
+
 ## Emergent Cababilities in LLMS:
 
 Models abilities that are not present in small scale LM, but on scaling, emerges. first was seen on gpt2-xl model. 
