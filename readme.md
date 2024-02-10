@@ -307,3 +307,5 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Can Mamba Learn How to Learn? A Comparative Study on In-Context Learning Tasks](https://arxiv.org/pdf/2402.04248.pdf)
 - [ScreenAI: A Vision-Language Model for UI and Infographics Understanding](https://arxiv.org/pdf/2402.04615.pdf)
 - [UNDERSTANDING IN-CONTEXT LEARNING IN TRANSFORMERS AND LLMS BY LEARNING TO LEARN DISCRETE FUNCTIONS](https://arxiv.org/pdf/2310.03016.pdf)
+- [A Survey of Large Language Models](https://arxiv.org/pdf/2303.18223.pdf)
+- [A Survey of Vision-Language Pre-Trained Models](https://arxiv.org/pdf/2202.10936.pdf)
