@@ -55,7 +55,7 @@ For unimodal-language modeling, some of the pretraining objectives are:
 - Causal Language Modelling( used in decoder-only architecture like GPT)
 - Permutation Language Modelling( for encoder-decoder architecture)
 
-For vision task and multimodal-Language Modeling, some of the pretraining objectives are:
+For vision task and multimodal-Language Modeling,
 - Contrastive Loss
 - Reconstruction Loss
 
