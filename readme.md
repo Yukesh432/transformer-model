@@ -49,11 +49,15 @@ Example of Masked LM :
 
 Pretraining is the process of traning any neural network architecture to learn the latent structure present in the corpus of data. Data can be in any form like text, audio, images, video, etc. As a result of pretraining, what we get is a model which is trained on different **pre-training objective** according to different task.
 
-For language modeling, the pretraining objective might be:
+For unimodal-language modeling, some of the pretraining objectives are:
 - Masked Language Modelling(for encoder-decoder transformer)
 - Next sentence Prediction( used in encoder based model like BERT)
 - Causal Language Modelling( used in decoder-only architecture like GPT)
 - Permutation Language Modelling( for encoder-decoder architecture)
+
+For vision task and multimodal-Language Modeling, some of the pretraining objectives are:
+- Contrastive Loss
+- Reconstruction Loss
 
 
 
