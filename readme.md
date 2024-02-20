@@ -323,3 +323,5 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [A Survey of Vision-Language Pre-Trained Models](https://arxiv.org/pdf/2202.10936.pdf)
 - [XLNet: Generalized Autoregressive Pretraining for Language Understanding](https://arxiv.org/pdf/1906.08237.pdf?)
 - [Neurosymbolic AI: The 3rd Wave](https://arxiv.org/pdf/2012.05876.pdf)
+- [A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms](https://arxiv.org/pdf/1901.10912.pdf)
+- [Intriguing properties of neural networks](https://arxiv.org/pdf/1312.6199.pdf)
