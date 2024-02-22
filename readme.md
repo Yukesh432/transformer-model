@@ -64,7 +64,7 @@ For vision task and multimodal-Language Modeling,
 After pretraining on diverse set of data, the base model represents the features encoded as an n-dim embeddings in feature dimensions. We use this model keeping in mind that it has learned some structures present in its training data. Now to use this model on **downstream task** as per our requirement, we further need to train that base model on individual or multiple task to get a **Finetuned Model**, and the process involved in retraining the base model to finetuned model is called **Finetuning**. 
 
 
-Finetunin is the 
+Finetunin is the process of retraining the model on specific task.
 
 
 ## Emergent Cababilities in LLMS:
