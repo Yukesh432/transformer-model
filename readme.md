@@ -66,12 +66,6 @@ For vision task and multimodal-Language Modeling,
 After pretraining on diverse set of data, the base model represents the features encoded as an n-dim embeddings in feature space. We use this model keeping in mind that it has learned some structures present in its training data. Now to use this model on **downstream task** as per our requirement, we further need to train that base model on individual or multiple task to get a **Finetuned Model**, and the process involved in retraining the base model to finetuned model is called **Finetuning**.
 
 
-
-Pretraining is an idea that is widely used in extracting features from the Images and text.Once the features are extracted and represented in an embedding space, those learned features can be used to make our model excel in specific task. Task can be any language related like summarization, question answering, name-entity-recognition, classification etc., or image classification, object-recognition, image segmentation tasks, etc.
-
-Finetuning is the process of retraining the model on specific task. Once we pretrain a model on large corpus of data, the features from the data are encoded in an embedding vector. 
-
-
 ## Emergent Cababilities in LLMS:
 
 Models abilities that are not present in small scale LM, but on scaling, emerges. first was seen on gpt2-xl model. 
