@@ -47,6 +47,8 @@ Example of Masked LM :
 
 ### Pretraining and Finetuning:
 
+training a learning model (in this case NN) on one task as a result of which, the model learns high level feature representation of the task, the semantics and information encoded in the data , learns to represent the features **(representation learning)** which can later be used for other task. the knowledge learned from one task gets transferred to other tasks, known as **Transfer Learning**. The process of transferring the knowledge learned from one task to other is
+
 Pretraining is the process of traning any neural network architecture to learn the latent structure present in the corpus of data. Data can be in any form like text, audio, images, video, etc. As a result of pretraining, what we get is a model which is trained on different **pre-training objective** according to different task.
 
 For unimodal-language modeling, some of the pretraining objectives are:
@@ -63,7 +65,7 @@ For vision task and multimodal-Language Modeling,
 
 After pretraining on diverse set of data, the base model represents the features encoded as an n-dim embeddings in feature space. We use this model keeping in mind that it has learned some structures present in its training data. Now to use this model on **downstream task** as per our requirement, we further need to train that base model on individual or multiple task to get a **Finetuned Model**, and the process involved in retraining the base model to finetuned model is called **Finetuning**.
 
-training a model (in this case NN) on one task as a result of which the mdoel learns high level features of the task, the semantics and information encoded in the data , learns to represent the features **(representation learning)** which can later be used for other task. the knowledge learned from one task gets transferred to other tasks, known as **Transfer Learning**. The process of transferring the knowledge learned from one task to other is
+
 
 Pretraining is an idea that is widely used in extracting features from the Images and text.Once the features are extracted and represented in an embedding space, those learned features can be used to make our model excel in specific task. Task can be any language related like summarization, question answering, name-entity-recognition, classification etc., or image classification, object-recognition, image segmentation tasks, etc.
 
