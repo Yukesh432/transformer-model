@@ -65,7 +65,9 @@ For vision task and multimodal-Language Modeling,
 
 After pretraining on diverse set of data, the base model represents the features encoded as an n-dim embeddings in feature space. We use this model keeping in mind that it has learned some structures present in its training data. Now to use this model on **downstream task** as per our requirement, we further need to train that base model on individual or multiple task to get a **Finetuned Model**, and the process involved in retraining the base model to finetuned model is called **Finetuning**.
 
+In case of deep neural network based architecture, the idea of pretraining and finetuning was achieved by  .......in la19xx. Theen researcher began to explore the idea of differnt finetuning techniques a for neural network models like CNN, lstm, seq-to-seq model, transformer, etc. Different method of ffinetuning is thre and in case of currrent scenario of dealing with Large Language models, different adaptors have been proposed and tried out. Each have their own benefits and downsides. All are made to re-train the neurak network to adapt to some other task, therby using differnt **adaptors**.
 
+But todays State-of the art methods for finetuning the model for specific task have not been made greatly due to the major problem of transfer learning and maily continual setting, the problem of **Catastrophic Forgetting**
 ## Emergent Cababilities in LLMS:
 
 Models abilities that are not present in small scale LM, but on scaling, emerges. first was seen on gpt2-xl model. 
