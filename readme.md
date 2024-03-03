@@ -47,7 +47,7 @@ Example of Masked LM :
 
 ### Pretraining and Finetuning:
 
-training a learning model (in this case NN) on one task as a result of which, the model learns high level feature representation of the task, the semantics and information encoded in the data , learns to represent the features **(representation learning)** which can later be used for other task. the knowledge learned from one task gets transferred to other tasks, known as **Transfer Learning**. The process of transferring the knowledge learned from one task to other is
+Pretraining: training a learning model on one task as a result of which, the model learns high level feature representation of the task, the semantics and information encoded in the data , learns to represent the features **(representation learning)** which can later be used for other task. the knowledge learned from one task gets transferred to solve the other tasks, known as **Transfer Learning** has its first step as Pretraining. 
 
 Pretraining is the process of traning any neural network architecture to learn the latent structure present in the corpus of data. Data can be in any form like text, audio, images, video, etc. As a result of pretraining, what we get is a model which is trained on different **pre-training objective** according to different task.
 
