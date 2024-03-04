@@ -338,3 +338,5 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Intriguing properties of neural networks](https://arxiv.org/pdf/1312.6199.pdf)
 - [How Transformers Learn Causal Structure with Gradient Descent](hhtp)
 - [Training Dynamics of Multi-Head Softmax Attention for In-Context Learning: Emergence, Convergence, and Optimality](https://arxiv.org/pdf/2402.19442.pdf)
+- [A Survey on Transfer Learning](https://www.cse.ust.hk/~qyang/Docs/2009/tkde_transfer_learning.pdf)
+- [A Comprehensive Survey on Transfer Learning](https://arxiv.org/pdf/1911.02685.pdf)
