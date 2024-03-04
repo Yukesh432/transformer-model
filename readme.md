@@ -48,7 +48,7 @@ Example of Masked LM :
 ## Transfer Learning:
 
 The idea roots back to the psychological view that learning to transkfer is the result of the generalization of experience.
-To hold back up this statement
+To hold back up this statementunder transfer learning setting , there must be some common ground between task for which the knowledge gets transferred.
 - Semi supervised learning
 - Multiview Learning
 - Multi-task learning
