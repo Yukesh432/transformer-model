@@ -43,7 +43,16 @@ Example of Masked LM :
 - The [MASK] brown [MASK] jump over a [MASK] dog.
 - She was having a pepperoni [MASK] tonight.
 
-*Decoder-only architecture example:* Chatgpt, gpt-2, gpt-3 , PaLM, etc. 
+*Decoder-only architecture example:* Chatgpt, gpt-2, gpt-3 , PaLM, etc.
+
+## Transfer Learning:
+
+The idea roots back to the psychological view that learning to transkfer is the result of the generalization of experience.
+To hold back up this statement
+- Semi supervised learning
+- Multiview Learning
+- Multi-task learning
+
 
 ### Pretraining and Finetuning:
 
