@@ -48,7 +48,7 @@ Example of Masked LM :
 ## Transfer Learning:
 
 The idea roots back to the psychological view that learning to transkfer is the result of the generalization of experience.
-To hold back up this statementunder transfer learning setting , there must be some common ground between two learning activiites. For example the person who rides bicycle can probably use his knowlege and experince to ride a motorbike since, both learning activities involves riding a 2-wheeler vechile, or be it a person who knows how to play violen can use that knowledge to play guitar since both are musical instruments. To boil down transfer learning focus on these three key questions:
+To hold back up this statementunder transfer learning setting , there must be some common ground between two learning activiites. For example the person who rides bicycle can probably use his knowlege and experince to ride a motorbike since, both learning activities involves riding a 2-wheeler vechile, or be it a person who knows how to play violen can use that knowledge to play guitar since both are musical instruments. The key research around transfer learning focus on these three questions:
 - What to transfer
 - How to transfer
 - When to transfer
