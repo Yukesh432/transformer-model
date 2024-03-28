@@ -345,3 +345,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [A Comprehensive Survey on Transfer Learning](https://arxiv.org/pdf/1911.02685.pdf)
 - [Regularized Multi–Task Learning]()
 - [The Unreasonable Ineffectiveness of the Deeper Layers](https://arxiv.org/pdf/2403.17887.pdf)
+- [BitNet: Scaling 1-bit Transformers for Large Language Models](https://arxiv.org/pdf/2310.11453.pdf)
