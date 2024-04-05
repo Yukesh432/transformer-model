@@ -348,3 +348,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [BitNet: Scaling 1-bit Transformers for Large Language Models](https://arxiv.org/pdf/2310.11453.pdf)
 - [Mechanistic Design and Scaling of Hybrid Architectures](https://arxiv.org/pdf/2403.17844.pdf)
 - [Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models](https://arxiv.org/pdf/2404.02575.pdf)
+- [Bigger is not Always Better: Scaling Properties of Latent Diffusion Models](https://arxiv.org/pdf/2404.01367.pdf)
