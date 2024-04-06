@@ -349,3 +349,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Mechanistic Design and Scaling of Hybrid Architectures](https://arxiv.org/pdf/2403.17844.pdf)
 - [Language Models as Compilers: Simulating Pseudocode Execution Improves Algorithmic Reasoning in Language Models](https://arxiv.org/pdf/2404.02575.pdf)
 - [Bigger is not Always Better: Scaling Properties of Latent Diffusion Models](https://arxiv.org/pdf/2404.01367.pdf)
+- [Categorical Deep Learning: An Algebraic Theory of Architectures](https://arxiv.org/pdf/2402.15332.pdf)
