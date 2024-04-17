@@ -351,3 +351,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Bigger is not Always Better: Scaling Properties of Latent Diffusion Models](https://arxiv.org/pdf/2404.01367.pdf)
 - [Categorical Deep Learning: An Algebraic Theory of Architectures](https://arxiv.org/pdf/2402.15332.pdf)
 - [Logical Neural Networks](https://arxiv.org/pdf/2006.13155.pdf)
+- [Foundational Challenges in Assuring Alignment and Safety of Large Language Models](https://arxiv.org/pdf/2404.09932.pdf)
