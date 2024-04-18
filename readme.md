@@ -352,3 +352,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Categorical Deep Learning: An Algebraic Theory of Architectures](https://arxiv.org/pdf/2402.15332.pdf)
 - [Logical Neural Networks](https://arxiv.org/pdf/2006.13155.pdf)
 - [Foundational Challenges in Assuring Alignment and Safety of Large Language Models](https://arxiv.org/pdf/2404.09932.pdf)
+- [Physics of Language Models: Part 3.3, Knowledge Capacity Scaling Laws](https://arxiv.org/pdf/2404.05405.pdf)
