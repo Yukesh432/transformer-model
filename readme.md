@@ -353,3 +353,5 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Logical Neural Networks](https://arxiv.org/pdf/2006.13155.pdf)
 - [Foundational Challenges in Assuring Alignment and Safety of Large Language Models](https://arxiv.org/pdf/2404.09932.pdf)
 - [Physics of Language Models: Part 3.3, Knowledge Capacity Scaling Laws](https://arxiv.org/pdf/2404.05405.pdf)
+- [Physics of Language Models: Part 3.1, Knowledge Storage and Extraction](https://arxiv.org/pdf/2309.14316.pdf)
+- [Physics of Language Models: Part 3.2, Knowledge Manipulation](https://arxiv.org/pdf/2309.14402.pdf)
