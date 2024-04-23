@@ -357,3 +357,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Physics of Language Models: Part 3.2, Knowledge Manipulation](https://arxiv.org/pdf/2309.14402.pdf)
 - [The Illusion of State in State-Space Models](https://arxiv.org/pdf/2404.08819.pdf)
 - [THE LANDSCAPE OF EMERGING AI AGENT ARCHITECTURES FOR REASONING, PLANNING, AND TOOL CALLING: A SURVEY](https://arxiv.org/pdf/2404.11584.pdf)
+- [State Space Model for New-Generation Network Alternative to Transformers: A Survey](https://arxiv.org/pdf/2404.09516.pdf)
