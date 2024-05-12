@@ -362,3 +362,4 @@ ROGUE metric is case insensative, i.e uppercase and lowercase letters are treate
 - [Is Model Collapse Inevitable? Breaking the Curse of Recursion by Accumulating Real and Synthetic Data](https://arxiv.org/pdf/2404.01413)
 - [Lory: Fully Differentiable Mixture-of-Experts for Autoregressive Language Model Pre-training](https://arxiv.org/pdf/2405.03133)
 - [Spikformer V2: Join the High Accuracy Club on ImageNet with an SNN Ticket](https://arxiv.org/pdf/2401.02020v1)
+- [No “Zero-Shot” Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance](https://arxiv.org/pdf/2404.04125)
