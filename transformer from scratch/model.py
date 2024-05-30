@@ -66,7 +66,7 @@ class PositionalEncoding(nn.Module):
         torch.Tensor: Output tensor of shape (batch_size, seq_len, d_model)
         """
         #add the positiional encoding to the input tensor along the sequence length dimension
-        x= x +(self.pe[:, :x.shape[1], :]).requires_grad(False)
+        x= x +(self.pe[:, :x.shape[1], :]).requires_grad_(False)
 
         # apply the drropout for regularization
         return self.dropout(x)
@@ -140,7 +140,7 @@ class MultiHeadAttentionBlock(nn.Module):
         key= self.w_k(k)
         value= self.w_v(v)
 
-        query= query.view(query.shape[0], query.shape[1], self.d_k).transpose(1,2)
+        query= query.view(query.shape[0], query.shape[1], self.h, self.d_k).transpose(1,2)
         key= key.view(key.shape[0], key.shape[1], self.h, self.d_k).transpose(1, 2)
         value= value.view(value.shape[0], value.shape[1], self.h, self.d_k).transpose(1, 2)
 
@@ -199,7 +199,7 @@ class DecoderBlock(nn.Module):
         self.self_attention_block= self_attention_block
         self.cross_attention_block= cross_attention_block
         self.feed_forward_block= feed_forward_block
-        self.residual_connections= nn.Module(ResidualConnection(dropout) for _ in range(3))    
+        self.residual_connections= nn.ModuleList(ResidualConnection(dropout) for _ in range(3))    
 
     def forward(self, x, encoder_output, src_mask, tgt_mask):
         x= self.residual_connections[0](x, lambda x: self.self_attention_block(x, x, x, tgt_mask))
@@ -302,3 +302,5 @@ def build_transformer(src_vocab_size:int, tgt_vocab_size:int, src_seq_len:int, t
             nn.init.xavier_uniform_(p)
 
     return transformer
+
+
