@@ -17,9 +17,9 @@ The encoder module encodes the input sequence , preserving the positional inform
 - Decoder-only Architecture
 
 
-**Encoder Architecture:** The function of encoder is to represent the input(typically textual input, but can be others like images, audio, vidoe, sensor signals ,etc.) into contextual numerical n-dimensional vector representation. Encoder-only architecture is used for those task which requires the understanding of the overall context in the given input sentences.
-It is mainly used for NLU tasks in NLP.
-The major operation performed in Encoder architecture is:
+**Encoder Architecture:** The function of encoder is to represent the input data(like text, images, audio, vidoe, sensor signals ,etc.) into contextual numerical n-dimensional vector representation. Encoder-only architecture is used for those task which requires the understanding of the overall context of given input data.
+
+The major data transformation operations performed in Encoder block is:
 
 a. Positional Encoding
 
