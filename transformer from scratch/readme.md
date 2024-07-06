@@ -9,3 +9,17 @@
     <button onclick="zoomIn()">Zoom In</button>
     <button onclick="zoomOut()">Zoom Out</button>
 </div>
+
+<script>
+function zoomIn() {
+    var img = document.getElementById("myImage");
+    var width = img.clientWidth;
+    img.style.width = (width + 20) + "px";
+}
+
+function zoomOut() {
+    var img = document.getElementById("myImage");
+    var width = img.clientWidth;
+    img.style.width = (width - 20) + "px";
+}
+</script>
