@@ -3,23 +3,18 @@
 
 <!-- ![training loop](./trainprocess.png) -->
 
+<style>
+  .zoom {
+    transition: transform 0.2s; /* Animation */
+    margin: 0 auto;
+    display: block;
+  }
+
+  .zoom:hover {
+    transform: scale(1.5); /* (150% zoom) */
+  }
+</style>
+
 <div style="text-align: center;">
-    <img id="myImage" src="./trainprocess.png" alt="training process" style="width: 50%; max-width: 500px; transition: all 0.3s ease;">
-    <br>
-    <button onclick="zoomIn()">Zoom In</button>
-    <button onclick="zoomOut()">Zoom Out</button>
+  <img src="./trainprocess.png" alt="training process" class="zoom" style="width: 50%; max-width: 500px;">
 </div>
-
-<script>
-function zoomIn() {
-    var img = document.getElementById("myImage");
-    var width = img.clientWidth;
-    img.style.width = (width + 20) + "px";
-}
-
-function zoomOut() {
-    var img = document.getElementById("myImage");
-    var width = img.clientWidth;
-    img.style.width = (width - 20) + "px";
-}
-</script>
